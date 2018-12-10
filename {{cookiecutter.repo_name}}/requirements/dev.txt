@@ -1,0 +1,18 @@
+# Everything the developer needs in addition to the production requirements
+-r prod.txt
+
+coverage
+django-coverage-plugin
+Sphinx
+sphinx_rtd_theme
+django-extensions
+django-debug-toolbar
+pytest
+pytest-django
+pytest-sugar
+pytest-cov
+pytest-html
+
+flake8
+autoflake
+hy
