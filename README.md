@@ -1,0 +1,2 @@
+# cookiecutter-django
+Cookiecutter可以让你快速从模板中建立工程，cookiecutter-django则是Django的模板，可以快速生成Django大型项目模板。
