@@ -66,7 +66,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = '{{cookiecutter.project_name}}.urls'
+ROOT_URLCONF = '{{cookiecutter.repo_name}}.urls'
 
 TEMPLATES = [
     {
@@ -95,7 +95,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = '{{cookiecutter.project_name}}.wsgi.application'
+WSGI_APPLICATION = '{{cookiecutter.repo_name}}.wsgi.application'
 
 
 # Database
@@ -104,7 +104,7 @@ WSGI_APPLICATION = '{{cookiecutter.project_name}}.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '{{cookiecutter.project_name}}',
+        'NAME': '{{cookiecutter.repo_name}}',
         'USER': 'root',
         'PASSWORD': '123456',
         'HOST': '127.0.0.1',

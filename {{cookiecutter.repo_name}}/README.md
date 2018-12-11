@@ -1,6 +1,6 @@
-# xfish
+# {{cookiecutter.repo_name}}
 
-666咸鱼社区后端(django版)
+{{cookiecutter.repo_name}}
 
 ## 项目架构
 

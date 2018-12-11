@@ -2,9 +2,9 @@
 
 #### 创建数据库
 
-创建数据库, 数据库名为`xfish`， 且编码为utf8， 以支持中文， 如下：
+创建数据库, 数据库名为`{{cookiecutter.repo_name}}`， 且编码为utf8， 以支持中文， 如下：
 ```
-mysql> create database xfish DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+mysql> create database {{cookiecutter.repo_name}} DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 ```
 
 #### 创建数据库表

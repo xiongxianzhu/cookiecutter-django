@@ -3,8 +3,7 @@
     "email": "zhuxiongxian@gmail.com",
     "site_url": "https://www.zhuxiongxian.cc",
     "site_name": "xx",
-    "project_name": "xx_project",
-    "app_name": "xx_app",
+    "repo_name": "xx_project",
     "project_short_description": "An Awesome Django Project!",
     "version": "0.1.0"
 }
