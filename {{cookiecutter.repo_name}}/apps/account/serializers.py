@@ -27,9 +27,10 @@ class UserProfileSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = UserProfile
+        # fields = '__all__'
         fields = ('id', 'uid', 'username', 'email', 'mobile', 'nickname',
                     'gender', 'birthday', 'avatar_url', 'password',
-                    'is_active', 'card_num', 'real_name', 'resume',
+                    'is_active', 'card_num', 'real_name', 'bio',
                     'location', 'address', 'freeze', 'income',
                     'balance', 'level', 'is_superuser', 'is_staff',
                     'is_lock', 'last_login_ip', 'last_login_ip_area',

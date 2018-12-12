@@ -155,7 +155,7 @@ class UserProfile(AbstractUser):
     roles = models.ManyToManyField("Role", blank=True, verbose_name="角色")
     card_num = models.CharField(max_length=20, null=True, blank=True, verbose_name="身份证号码")
     real_name = models.CharField(max_length=20, null=True, blank=True, verbose_name="真实姓名")
-    resume = models.CharField(max_length=20, null=True, blank=True, verbose_name="简介")
+    bio = models.CharField(max_length=100, null=True, blank=True, verbose_name="简介")
     location = models.CharField(max_length=100, null=True, blank=True, verbose_name="所在地")
     address = models.CharField(max_length=100, null=True, blank=True, verbose_name="通讯地址")
     freeze = models.IntegerField(default=0, verbose_name="冻结")

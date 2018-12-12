@@ -85,7 +85,7 @@ password | string(80) | 否 | | 密码
 is_active | boolean | 是 | True | 是否激活
 card_num | string(20) | 否 | | 身份证号码
 real_name | string(20) | 否 | | 真实姓名
-resume | string(100) | 否 | | 简介
+bio | string(100) | 否 | | 个人简介
 location | string(100) | 否 | | 所在地
 address | string(100) | 否 | | 通讯地址
 roles | List(Role) | 否 | [] | 角色
