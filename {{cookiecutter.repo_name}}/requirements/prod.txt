@@ -2,7 +2,7 @@
 django==1.11.16
 
 # django restful api
-djangorestframework==3.9.0
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 django-filter==2.0.0
 Werkzeug==0.14.1
