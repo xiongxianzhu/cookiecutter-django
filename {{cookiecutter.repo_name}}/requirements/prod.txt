@@ -1,5 +1,5 @@
 # python web framework
-django==1.11.16
+django==2.2.24
 
 # django restful api
 djangorestframework==3.9.0
