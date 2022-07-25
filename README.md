@@ -11,3 +11,4 @@ $ cookiecutter git@github.com:xiongxianzhu/cookiecutter-django.git
 ```
 
 你将会被要求填写一些基本的项目信息。
+
